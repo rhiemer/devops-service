@@ -20,7 +20,7 @@
 		<spring.fox.version>3.0.0</spring.fox.version>
 		<jacoco-plugin.version>0.8.7</jacoco-plugin.version>
 		<!-- como default não roda os testes no build -->
-		<skipTests>true</skipTests>
+		<skipTests>false</skipTests>
 	</properties>
 
 	<dependencyManagement>

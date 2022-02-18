@@ -31,7 +31,7 @@ RUN /scripts/build/maven-settings.sh --settings "/build/settings.xml"
 
 WORKDIR /build
 
-RUN mvn -B --settings "$SETTINGS" clean package spring-boot:repackage
+RUN mvn -B --settings "$SETTINGS" clean package spring-boot:repackage -DskipTests
 
 FROM $IMAGEM_BASE
 
