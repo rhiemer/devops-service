@@ -1,0 +1,20 @@
+version: '3.7'
+services:  
+  devops-service:
+    build:
+       context: .
+       args:
+        URL_MVN: $URL_MVN
+        USUARIO_MVN: $USUARIO_MVN
+        SENHA_MVN: $SENHA_MVN
+    image: ${DEVOPS_SERVICE_IMAGE:-detran-rj/devops-service:latest}
+    ports:
+      - "${DEVOPS_SERVICE_HTTP_PORT:-8080}:8080"
+    restart: ${DEVOPS_SERVICE_RESTART:-unless-stopped}
+    network_mode: "${DEVOPS_SERVICE_NETWORK_MODE:-host}"
+    deploy:
+      restart_policy:
+        condition: ${DEVOPS_SERVICE_RESTART_POLICY_CONDITION:-on-failure}
+      resources:
+          limits:
+            memory: ${DEVOPS_SERVICE_MEMORY:-256m}

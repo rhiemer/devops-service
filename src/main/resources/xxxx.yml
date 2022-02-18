@@ -1,0 +1,45 @@
+debug: ${DEVOPS_SERVICE_DEBUG:false}
+server:
+    servlet:
+        context-path: ${DEVOPS_SERVICE_CONTEXT_PATH:/devops-service/api}
+logging:
+    level:
+        root: ${DEVOPS_SERVICE_LOGGIN_LEVEL:INFO}
+        org.apache.http: ${DEVOPS_SERVICE_LOGGIN_LEVEL:INFO}
+        httpclient.wire: ${DEVOPS_SERVICE_LOGGIN_LEVEL:INFO}
+        web: ${DEVOPS_SERVICE_LOGGIN_LEVEL:INFO}
+        br.gov.rj.detran: ${DEVOPS_SERVICE_LOGGIN_LEVEL:INFO}
+    pattern:
+        console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+spring:
+    debug: ${DEVOPS_SERVICE_DEBUG:false}
+    application:
+        name: DevopsService
+        description: POC de uma API em spring-boot para o projeto devops do DETRAN-RJ
+    datasource:
+        hikari:
+            minimumIdle: ${DEVOPS_SERVICE_DATASOURCE_MINIMUM_IDE:3}
+            pool-name: ${DEVOPS_SERVICE_DATASOURCE_POOL_NAME:DbPool}
+            idle-timeout: ${DEVOPS_SERVICE_DATASOURCE_IDLE_TIMEOUT:12000}
+            maximumPoolSize: ${DEVOPS_SERVICE_DATASOURCE_MAXIMUM_POOLSIZE:10}
+            connection-timeout: ${DEVOPS_SERVICE_DATASOURCE_CONNECTION_TIMEOUT:60000}
+        username: ${DEVOPS_SERVICE_DATASOURCE_USERNAME:DETRAN_RJ_DEVOPS_APP}
+        password: ${DEVOPS_SERVICE_DATASOURCE_PASSWORD:DETRAN_RJ_DEVOPS_APP}
+        url: ${DEVOPS_SERVICE_DATASOURCE_URL:jdbc:oracle:thin:@localhost:1521/XE}
+        driver-class-name: oracle.jdbc.driver.OracleDriver
+    jpa:
+      hibernate:
+         show-sql: ${DEVOPS_SERVICE_SHOW_SQL:false}
+      properties:
+        hibernate:
+          format_sql: ${DEVOPS_SERVICE_FORMAT_SQL:false}
+          generate_statistics: ${DEVOPS_SERVICE_GENERATE_STATICS:false}   
+    http:
+        encoding:
+            charset: UTF-8
+    info:
+        build:
+            encoding: UTF-8
+    jackson:
+        time-zone: America/Sao_Paulo
+    mandatory-file-encoding: UTF-8

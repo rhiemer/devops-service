@@ -1,0 +1,10 @@
+#Java compiled files
+bin/
+target/
+.vscode/
+
+# Eclipse files
+.classpath
+.project
+.tern-project
+.settings/
