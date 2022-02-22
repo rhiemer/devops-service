@@ -49,7 +49,7 @@ public class PocPipelineController {
 	 */
 	private PocPipeline find(final String id) {
 		try {
-			return pocPipelineRepository.findById(id).orElseThrow();
+			return pocPipelineRepository.findById(id).get();
 		} catch (NoSuchElementException e) {
 			throw new ResponseStatusException(HttpStatus.NOT_FOUND, String.format("Id %s não encontrao", id));
 		}
