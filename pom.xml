@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>br.gov.rj.detran</groupId>
 	<artifactId>devops-service</artifactId>
-	<version>1.0.1-SNAPSHOT</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>devops-service</name>
 	<description>POC de uma API em spring-boot para o projeto devops do DETRAN-RJ</description>
 
