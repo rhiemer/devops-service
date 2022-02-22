@@ -136,7 +136,7 @@ public abstract class TestCrud<T, K, S> {
 		T objFind = this.find(id, obj, objSave);
 		this.validFind(objFind, objSave, obj);
 		Collection<T> objs = this.findAll(id, objFind, objSave);
-		objs.stream().filter(objList -> getFindAll(objList, objFind, objSave, obj)).findFirst().orElseThrow();
+		objs.stream().filter(objList -> getFindAll(objList, objFind, objSave, obj)).findFirst().get();
 		T objUpdate = this.prepareUpdate(objFind, objSave, obj);
 		this.update(objUpdate, objFind, objSave, obj);
 		T objFindUpdate = this.find(id, obj, objSave);
