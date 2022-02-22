@@ -1,0 +1,14 @@
+apiVersion: route.openshift.io/v1
+kind: Route 
+metadata:
+  name: devops-service
+spec:     
+  to:
+    kind: Service
+    name: devops-service
+    weight: 100
+  port:
+    targetPort: http
+  tls:
+    termination: edge
+    insecureEdgeTerminationPolicy: Allow
