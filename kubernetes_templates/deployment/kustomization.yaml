@@ -1,0 +1,12 @@
+resources:
+- ./components/deployment.yaml
+- ./components/service.yaml
+- ./components/route.yaml
+namespace: devops-apps
+commonLabels:
+  app: java-deployment-template
+images:
+- name: devops-service
+  newName: image-registry.openshift-image-registry.svc:5000/devops-apps/devops-service
+  newTag: 1.0.5-SNAPSHOT-develop-20220224-154826
+

@@ -1,0 +1,14 @@
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: java-deployment-template
+  namespace: openshift-gitops
+spec:
+  project: default
+  destination:
+    namespace: devops-apps
+    server: https://kubernetes.default.svc
+  source:
+    path: kubernetes_templates/deployment
+    repoURL: https://github.com/rhiemer/java-deployment-template.git
+    targetRevision: develop

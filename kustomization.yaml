@@ -1,0 +1,12 @@
+resources:
+- ./components/deployment.yaml
+- ./components/service.yaml
+- ./components/route.yaml
+namespace: devops-apps
+commonLabels:
+  app: java-deployment-template
+images:
+- name: java-deployment-template
+  newName: ccc
+  newTag: ffff
+
