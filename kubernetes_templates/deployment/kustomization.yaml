@@ -8,5 +8,5 @@ commonLabels:
 images:
 - name: devops-service
   newName: image-registry.openshift-image-registry.svc:5000/develop/devops-service
-  newTag: main-1.0.5-SNAPSHOT-git-pull-build-image
+  newTag: 1.0.5-SNAPSHOT-main-git-pull-build-image
 
