@@ -46,3 +46,5 @@ saçksaṕiosai
 
 assapóaspísapoiaspouas
 aspoiaspasiu
+
+aõsaṕoasṕassaṕi
