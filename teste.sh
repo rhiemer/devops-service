@@ -29,10 +29,12 @@ askljaus
 saoisapoisaoiassaaspaoisia 
 
 aslkaspóiasṕi
+saçlksaksapisa
+
 
 saposapios
 alkjklsaiouasoiasu
-
+ssasasasasa
 sapasoipsaoisapois
 aspáiopaosiasposi
 asopposaupasusa
@@ -48,3 +50,5 @@ assapóaspísapoiaspouas
 aspoiaspasiu
 
 aõsaṕoasṕassaṕi
+
+saçopsaoisapi
