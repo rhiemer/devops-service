@@ -57,7 +57,7 @@ saassaklçksaask
 assapóaspísapoiaspouas
 aspoiaspasiu
 sasaasklçlksa
-aõsaṕoasṕassaṕi
+aõsaṕoasṕassaṕisaasassa
 
 saçopsaoisapi
 ãsásoaósa
