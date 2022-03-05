@@ -63,6 +63,8 @@ saçopsaoisapi
 
 saaskçalksaçljsasa[ṕas[psa]]
 
+saasiaspisapíasṕi
+
 saljkaslosajosaiu
 
 saposaṕoasṕoasśpaosa
