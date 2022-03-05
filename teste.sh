@@ -62,6 +62,9 @@ aõsaṕoasṕassaṕi
 saçopsaoisapi
 ãsásoaósa
 
+
+assaasáspoṕo
+
 saaskçalksaçljsasa[ṕas[psa]]
 
 saasiaspisapíasṕi
