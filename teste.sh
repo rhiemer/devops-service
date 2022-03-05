@@ -61,6 +61,8 @@ aõsaṕoasṕassaṕi
 
 saçopsaoisapi
 
+saaskçalksaçljsasa[ṕas[psa]]
+
 saljkaslosajosaiu
 
 saposaṕoasṕoasśpaosa
