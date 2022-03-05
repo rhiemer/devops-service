@@ -60,6 +60,7 @@ sasaasklçlksa
 aõsaṕoasṕassaṕi
 
 saçopsaoisapi
+ãsásoaósa
 
 saaskçalksaçljsasa[ṕas[psa]]
 
