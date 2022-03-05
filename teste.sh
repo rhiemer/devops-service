@@ -62,7 +62,7 @@ aõsaṕoasṕassaṕi
 saçopsaoisapi
 ãsásoaósa
 sasaasklçlksa
-sasasasa
+sasasasasaassa
 
 assaasáspoṕo
 
