@@ -60,6 +60,8 @@ aspoiaspasiu
 sasaasklçlksa
 aõsaṕoasṕassaṕi
 
+aslãçsal
+
 saçopsaoisapi
 
 saposaṕoasṕoasśpaosa
