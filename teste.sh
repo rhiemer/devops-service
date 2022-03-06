@@ -66,6 +66,8 @@ saçopsaoisapi
 sasaasklçlksa
 sasasasasaassa
 
+saçspáoipósiapśaio
+
 assaasáspoṕo
 
 saaskçalksaçljsasa[ṕas[psa]]
