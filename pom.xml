@@ -140,6 +140,13 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			<!-- poder ser utilizado no java8 ou em jvms de versões superiores -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
 
 			<!-- Gerencia os testes no build -->
 			<plugin>
