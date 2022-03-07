@@ -1,0 +1,12 @@
+﻿apiVersion: v1
+kind: Route
+metadata:
+  name: not-important
+spec:
+  project: apps-homolog
+  destination:
+    namespace: homolog
+  source:
+    path: kubernetes_templates/deployment/overlays/homolog
+    targetRevision: homolog
+
