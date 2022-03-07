@@ -141,11 +141,7 @@
 				</executions>
 			</plugin>
 			
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-project-info-reports-plugin</artifactId>
-				<version>3.2.2</version>
-			</plugin>
+			
 			
 			<!-- poder ser utilizado no java8 ou em jvms de versões superiores -->
 			<plugin>
