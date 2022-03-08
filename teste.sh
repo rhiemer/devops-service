@@ -52,7 +52,12 @@ sonar
 wesdsaousopdaispdiopśdiisaí
 saçksaṕiosai
 
+<<<<<<< HEAD
 saassaklçksaask
+=======
+\zjlkz\çlj\zçlzj\ç\zjçz\j
+
+>>>>>>> homolog
 
 assapóaspísapoiaspouas
 aspoiaspasiu
@@ -61,6 +66,7 @@ aõsaṕoasṕassaṕisaasassa
 
 asaṕasośapo
 
+<<<<<<< HEAD
 saçopsaoisapi
 ãsásoaósasasasasa
 sasaasklçlksa
@@ -77,7 +83,12 @@ saasiaspisapíasṕi
 sasaaspospaoṕośaposao
 
 saljkaslosajosaiu
+=======
+asçlksaisapoisapoisapoisapoi
+>>>>>>> homolog
 
+sasasasasa
+saassasa
 saposaṕoasṕoasśpaosa
 
 salasoṕosaṕosaśapo

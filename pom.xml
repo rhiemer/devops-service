@@ -5,12 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.2.6.RELEASE</version>
+		<version>2.3.7.RELEASE</version>
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.gov.rj.detran</groupId>
 	<artifactId>devops-service</artifactId>
-	<version>1.0.5-SNAPSHOT</version>
+	<version>1.0.19-SNAPSHOT</version>
 	<name>devops-service</name>
 	<description>POC de uma API em spring-boot para o projeto devops do DETRAN-RJ</description>
 
@@ -35,7 +35,7 @@
 		</dependencies>
 	</dependencyManagement>
 
-	<dependencies>
+	<dependencies>	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -140,21 +140,27 @@
 					</execution>
 				</executions>
 			</plugin>
+			
+			
+			
+			<!-- poder ser utilizado no java8 ou em jvms de versões superiores -->
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>3.7.1</version>
+			</plugin>
 
 			<!-- Gerencia os testes no build -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
 				<configuration>
 					<skipTests>${skipTests}</skipTests>
 				</configuration>
 			</plugin>
 
-			<!-- poder ser utilizado no java8 ou em jvms de versões superiores -->
-			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-site-plugin</artifactId>
-			</plugin>
+
 		</plugins>
 	</build>
 

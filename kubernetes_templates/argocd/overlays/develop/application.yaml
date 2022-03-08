@@ -1,0 +1,12 @@
+﻿apiVersion: v1
+kind: Route
+metadata:
+  name: not-important
+spec:
+  project: apps-develop
+  destination:
+    namespace: develop
+  source:
+    path: kubernetes_templates/deployment/overlays/develop
+    targetRevision: develop
+

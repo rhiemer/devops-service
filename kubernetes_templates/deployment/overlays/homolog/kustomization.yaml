@@ -1,0 +1,14 @@
+bases:
+- ../../base
+namespace: homolog
+commonLabels:
+  app: devops-service
+images:
+- name: devops-service
+  newName: image-registry.openshift-image-registry.svc:5000/homolog/devops-service
+  newTag: 1.0.17-SNAPSHOT-homolog-20220307-191448
+patches:
+- path: route.yaml
+  target:
+    kind: Route
+
