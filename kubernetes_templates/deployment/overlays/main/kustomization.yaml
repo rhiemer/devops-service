@@ -6,7 +6,7 @@ commonLabels:
 images:
 - name: devops-service
   newName: image-registry.openshift-image-registry.svc:5000/main/devops-service
-  newTag: 1.0.24-SNAPSHOT-main-20220308-191308
+  newTag: 1.0.30-SNAPSHOT-main-20220308-204125
 patches:
 - path: route.yaml
   target:
