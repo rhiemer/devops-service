@@ -1,0 +1,12 @@
+﻿apiVersion: v1
+kind: Route
+metadata:
+  name: not-important
+spec:
+  project: apps-main
+  destination:
+    namespace: main
+  source:
+    path: kubernetes_templates/deployment/overlays/main
+    targetRevision: main
+

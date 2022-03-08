@@ -1,0 +1,7 @@
+﻿apiVersion: v1
+kind: Route
+metadata:
+  name: not-important
+spec:
+  host: devops-service.apps.cluster-f5f7.dynamic.opentlc.com
+

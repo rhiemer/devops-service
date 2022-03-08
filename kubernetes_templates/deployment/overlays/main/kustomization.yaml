@@ -1,0 +1,14 @@
+bases:
+- ../../base
+namespace: main
+commonLabels:
+  app: devops-service
+images:
+- name: devops-service
+  newName: image-registry.openshift-image-registry.svc:5000/main/devops-service
+  newTag: 1.0.17-SNAPSHOT-main-20220307-191448
+patches:
+- path: route.yaml
+  target:
+    kind: Route
+

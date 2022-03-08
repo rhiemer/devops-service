@@ -1,0 +1,7 @@
+bases:
+- ../../base
+nameSuffix: -main
+patches:
+- path: application.yaml
+  target:
+    kind: Application
